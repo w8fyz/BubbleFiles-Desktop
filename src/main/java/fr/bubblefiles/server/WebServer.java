@@ -13,7 +13,7 @@ public static void launch() throws Exception {
 
     ServletHandler srvhandler = new ServletHandler();
     srvhandler.addServletWithMapping(WebServerListener.class, "/*").getRegistration().setMultipartConfig(new MultipartConfigElement(
-            "/Users/thibeau/Downloads/GETTED/ "
+            "/Users/thibeau/Downloads/GETTED/"
     ));
     server.setHandler(srvhandler);
 
